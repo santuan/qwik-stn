@@ -23,6 +23,7 @@ export default component$(() => {
     <>
       <input
         type="range"
+        class="accent-yellow-400 bg-white"
         value={state.number}
         max={50}
         onInput$={(ev) => {
