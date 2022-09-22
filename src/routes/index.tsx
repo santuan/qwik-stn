@@ -6,15 +6,15 @@ export default component$(() => {
   return (
     <div class="text-center space-y-6">
       <h1 class="text-indigo-600 text-3xl font-bold underline">
-        Welcome to Qwik <span class="lightning">⚡️</span>
+        Bienvenidos a Qwik <span class="lightning">⚡️</span>
       </h1>
       <Link class="mindblow" href="/flower">
-        Blow my mind 🤯
+        Vuela mi mente 🤯
       </Link>
     </div>
   );
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: 'Bienvenidos a Qwik',
 };
