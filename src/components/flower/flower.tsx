@@ -20,22 +20,24 @@ export default component$(() => {
   });
 
   return (
-    <div class=" min-h-[100vh] grid place-content-center bg-white">
-      <div class="relative text-center z-10">
+    <div class=" min-h-[100vh] grid place-content-center bg-indigo-900 relative overflow-hidden">
+      <div class="relative text-center text-white z-10">
         <span class="text-7xl">⚡️</span>
-        <h1 class="font-mono text-2xl flex flex-col-reverse py-6">
+        <h1 class="font-mono text-5xl flex flex-col-reverse py-6">
           Bienvenidos a Qwik
         </h1>
-        <input
-          aria-label="Grow a html flower"
-          type="range"
-          class="accent-indigo-400 max-w-sm mx-auto"
-          value={state.number}
-          max={50}
-          onInput$={(ev) => {
-            state.number = (ev.target as HTMLInputElement).valueAsNumber;
-          }}
-        />
+        <div class="max-w-sm mx-auto bg-gray-900 rounded-full px-3 pt-1 shadow-lg ">
+          <input
+            aria-label="Grow a html flower"
+            type="range"
+            class="accent-indigo-100 max-w-sm mx-auto"
+            value={state.number}
+            max={50}
+            onInput$={(ev) => {
+              state.number = (ev.target as HTMLInputElement).valueAsNumber;
+            }}
+          />
+        </div>
       </div>
       <div class="absolute inset-0 z-0 opacity-20">
         <div

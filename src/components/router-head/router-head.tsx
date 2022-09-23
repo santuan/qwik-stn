@@ -11,7 +11,7 @@ export const RouterHead = component$(() => {
   return (
     <>
       <title>{head.title}</title>
-
+      <meta name="description" content="Bienvenidos a Qwik"/>
       <link rel="canonical" href={loc.href} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

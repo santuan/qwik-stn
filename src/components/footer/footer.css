@@ -1,6 +1,6 @@
 footer {
   @apply py-12 relative w-full left-0 right-0 top-0 bg-gray-100;
-  @apply flex justify-center flex-col items-center;
+  @apply flex justify-center flex-col items-center snap-center;
 }
 
 footer ul {
