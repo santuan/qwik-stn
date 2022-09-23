@@ -6,7 +6,7 @@ import Flower from "~/components/flower";
 export default component$(() => {
   return (
     <div class="home">
-      <div class="w-full relative min-h-screen bg-gray-200">
+      <div class="w-full snap-center relative min-h-screen bg-gray-200">
         <div class="absolute inset-0 z-0">
           <Flower />
         </div>

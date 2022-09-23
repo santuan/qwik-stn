@@ -29,7 +29,7 @@ export default component$(() => {
         <input
           aria-label="Grow a html flower"
           type="range"
-          class="accent-yellow-400 bg-white max-w-sm mx-auto"
+          class="accent-indigo-400 max-w-sm mx-auto"
           value={state.number}
           max={50}
           onInput$={(ev) => {
