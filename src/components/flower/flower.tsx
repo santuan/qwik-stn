@@ -8,7 +8,7 @@ export default component$(() => {
 
   const state = useStore({
     count: 0,
-    number: 20,
+    number: 30,
   });
 
   useClientEffect$(({ cleanup }) => {
@@ -21,8 +21,8 @@ export default component$(() => {
 
   return (
     <div class=" min-h-[100vh] grid place-content-center bg-indigo-900 relative overflow-hidden">
-      <div class="relative text-center text-white z-10">
-        <span class="text-7xl">🌺🌸🌼</span>
+      <div class="absolute bottom-3 left-0 right-0 text-center text-white z-10">
+        <span class="text-5xl">🌸</span>
         <h1 class="font-mono text-3xl font-bold flex flex-col-reverse py-6">
           Bienvenidos a Qwik
         </h1>
@@ -30,19 +30,20 @@ export default component$(() => {
           <input
             aria-label="Grow a html flower"
             type="range"
+            min={3}
             class="accent-indigo-100 max-w-sm mx-auto"
             value={state.number}
-            max={50}
+            max={90}
             onInput$={(ev) => {
               state.number = (ev.target as HTMLInputElement).valueAsNumber;
             }}
           />
         </div>
       </div>
-      <div class="absolute inset-0 z-0 opacity-20">
+      <div class="absolute inset-0 z-0 opacity-50">
         <div
           style={{
-            '--state': `${state.count * 0.1}`,
+            '--state': `${state.count * 0.05}`,
           }}
           class={{
             host: true,

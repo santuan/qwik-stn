@@ -29,7 +29,7 @@ input {
   transition-duration: 5s;
   transition-timing-function: ease-in-out;
   grid-area: 1 / 1;
-  @apply bg-indigo-800/80 border-indigo-800/80;
+  @apply bg-yellow-500/30 border-yellow-500/30;
   border-width: 2px;
   border-style: solid;
   box-sizing: border-box;
@@ -42,25 +42,26 @@ input {
   background: rgb(
     calc(172 * var(--luminance)),
     calc(127 * var(--luminance)),
-    calc(244 * var(--luminance))
+    calc(44 * var(--luminance))
   );
+  filter: hue-rotate(var(--luminance))
 }
 
 .pride .square:nth-child(12n + 1) {
-  background: yellow;
+  @apply bg-amber-400
 }
 .pride .square:nth-child(12n + 3) {
-  background: yellow;
+  @apply bg-amber-400
 }
 .pride .square:nth-child(12n + 5) {
-  background: yellow;
+  @apply bg-amber-400
 }
 .pride .square:nth-child(12n + 7) {
-  background: yellow;
+  @apply bg-amber-400
 }
 .pride .square:nth-child(12n + 9) {
-  background: yellow;
+  @apply bg-amber-400
 }
 .pride .square:nth-child(12n + 11) {
-  background: yellow;
+  @apply bg-amber-400
 }
