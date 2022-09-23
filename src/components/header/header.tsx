@@ -6,7 +6,7 @@ export default component$(() => {
   useStylesScoped$(styles);
   return (
     <header>
-      <Link href="/" class="logo">
+      <Link href="/" class="logo" aria-label="A yellow triangle as a logo">
         <QwikLogo />
       </Link>
       <div >

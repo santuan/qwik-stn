@@ -27,6 +27,7 @@ export default component$(() => {
           Bienvenidos a Qwik
         </h1>
         <input
+          aria-label="Grow a html flower"
           type="range"
           class="accent-yellow-400 bg-white max-w-sm mx-auto"
           value={state.number}
