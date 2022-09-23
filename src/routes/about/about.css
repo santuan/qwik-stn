@@ -1,0 +1,11 @@
+.about-page {
+  @apply flex justify-start items-center bg-gray-300  pt-16 min-h-screen flex-col;
+}
+
+.about-page section {
+  @apply w-full p-12;
+}
+.about-page article {
+  @apply max-w-3xl mx-auto p-6 bg-white shadow-2xl rounded-md;
+  @apply min-h-[50vh];
+}

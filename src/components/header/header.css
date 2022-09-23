@@ -1,35 +1,8 @@
 header {
-  @apply py-6;
-  background: var(--qwik-purple);
-}
-header {
-  @apply flex justify-center bg-white;
-  border-bottom: 10px solid var(--qwik-dark-purple);
+  @apply py-3  z-50 fixed w-full left-0 right-0 top-0 bg-gray-900;
+  @apply flex justify-center ;
 }
 
-header .logo a {
-}
-
-header ul {
-  margin: 0;
-  padding: 3px 10px 0 0;
-  list-style: none;
-  flex: 1;
-  text-align: right;
-}
-
-header li {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-header li a {
-  display: inline-block;
-  padding: 15px 10px;
-  text-decoration: none;
-}
-
-header li a:hover {
-  text-decoration: underline;
+header .logo {
+  @apply w-12 h-12 bg-red-600
 }

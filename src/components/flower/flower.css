@@ -10,10 +10,8 @@
   --odd-color-step: 5;
   --even-color-step: 5;
   --center: 12;
-
   width: 100%;
-  height: 500px;
-
+  height: 100vh;
   contain: strict;
 }
 
