@@ -22,8 +22,8 @@ export default component$(() => {
   return (
     <div class=" min-h-[100vh] grid place-content-center bg-indigo-900 relative overflow-hidden">
       <div class="relative text-center text-white z-10">
-        <span class="text-7xl">⚡️</span>
-        <h1 class="font-mono text-5xl flex flex-col-reverse py-6">
+        <span class="text-7xl">🌺🌸🌼</span>
+        <h1 class="font-mono text-3xl font-bold flex flex-col-reverse py-6">
           Bienvenidos a Qwik
         </h1>
         <div class="max-w-sm mx-auto bg-gray-900 rounded-full px-3 pt-1 shadow-lg ">
