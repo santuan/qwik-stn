@@ -12,7 +12,7 @@
   width: 100%;
   height: 100vh;
   contain: strict;
-  transform: scale(5)
+  @apply md:scale-[2]
 }
 
 input {

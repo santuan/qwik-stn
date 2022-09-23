@@ -25,9 +25,6 @@ main {
     flex: 1;
 }
 
-.home {
-}
-
 .home section { 
     @apply min-h-screen relative grid place-content-center snap-center;
 }
