@@ -29,7 +29,7 @@ input {
   transition-duration: 5s;
   transition-timing-function: ease-in-out;
   grid-area: 1 / 1;
-  @apply bg-indigo-900/50 border-indigo-900/50;
+  @apply bg-indigo-800/80 border-indigo-800/80;
   border-width: 2px;
   border-style: solid;
   box-sizing: border-box;
