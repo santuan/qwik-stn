@@ -1,8 +1,12 @@
 footer {
-  @apply py-12 relative w-full left-0 right-0 top-0 bg-gray-100;
+  @apply py-12 relative w-full left-0 right-0 top-0 bg-gray-800;
   @apply flex justify-center flex-col items-center snap-center;
 }
 
 footer ul {
   @apply flex justify-center space-x-3 font-bold text-lg mb-2;
+}
+
+footer  a {
+
 }

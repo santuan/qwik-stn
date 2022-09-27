@@ -8,7 +8,7 @@ export default component$(() => {
 
   const state = useStore({
     count: 0,
-    number: 30,
+    number: 10,
   });
 
   useClientEffect$(({ cleanup }) => {
@@ -21,8 +21,10 @@ export default component$(() => {
 
   return (
     <div class=" min-h-[100vh] grid place-content-center bg-indigo-900 relative overflow-hidden">
-      <div class="absolute bottom-3 left-0 right-0 text-center text-white z-10">
-        <span class="text-5xl">🌸</span>
+      <span class="text-5xl z-10 relative -translate-y-1"  style={{
+            '--state': `${state.count * 0.05}`,
+          }}>🌸</span>
+      <div class="absolute bottom-10 left-0 right-0 text-center text-white z-10">
         <h1 class="font-mono text-3xl font-bold flex flex-col-reverse py-6">
           Bienvenidos a Qwik
         </h1>
@@ -33,7 +35,7 @@ export default component$(() => {
             min={3}
             class="accent-indigo-100 max-w-sm mx-auto"
             value={state.number}
-            max={90}
+            max={50}
             onInput$={(ev) => {
               state.number = (ev.target as HTMLInputElement).valueAsNumber;
             }}
